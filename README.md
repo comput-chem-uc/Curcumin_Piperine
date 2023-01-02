@@ -1,7 +1,4 @@
-=================================================================================
-"Aggregation patterns of curcumin and piperine mixtures in different polar media"
-=================================================================================
-
+# "Aggregation patterns of curcumin and piperine mixtures in different polar media"
 
 J. R. C. Santos, P. E. Abreu, and J. M. C. Marques
 

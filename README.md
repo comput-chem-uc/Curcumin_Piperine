@@ -10,8 +10,11 @@ J. R. C. Santos, P. E. Abreu, and J. M. C. Marques
 
 ## GAMMES INPUT FILES:
 "curek-gam.inp"  - GAMMES input file for curcumin enol molecule
+
 "curkk-gam.inp"  - GAMMES input file for curcumin keto molecule
+
 "pip-gam.inp"    - GAMMES input file for piperine molecule
+
 
 
 

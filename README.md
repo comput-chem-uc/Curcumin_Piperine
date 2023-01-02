@@ -8,7 +8,7 @@ J. R. C. Santos, P. E. Abreu, and J. M. C. Marques
 
 
 
-## GAMMES INPUT FILES:
+### GAMESS INPUT FILES:
 "curek-gam.inp"  - GAMMES input file for curcumin enol molecule
 
 "curkk-gam.inp"  - GAMMES input file for curcumin keto molecule
@@ -18,7 +18,7 @@ J. R. C. Santos, P. E. Abreu, and J. M. C. Marques
 
 
 
-## GROMACS INPUT FILES:
+### GROMACS INPUT FILES:
 Each directory corresponds to each system used in the MD simulations:
 
 PIP refers to piperine

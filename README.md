@@ -8,18 +8,14 @@ DESCRIPTION OF FILES:
 
 
 
-===================
-GAMMES INPUT FILES:
-===================
+## GAMMES INPUT FILES:
 "curek-gam.inp"  - GAMMES input file for curcumin enol molecule
 "curkk-gam.inp"  - GAMMES input file for curcumin keto molecule
 "pip-gam.inp"    - GAMMES input file for piperine molecule
 
 
 
-====================
-GROMACS INPUT FILES:
-====================
+## GROMACS INPUT FILES:
 Each directory corresponds to each system used in the MD simulations:
 PIP refers to piperine
 CEK refers to curcumin enol

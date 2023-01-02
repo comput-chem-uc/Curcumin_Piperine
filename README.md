@@ -42,7 +42,7 @@ GROMACS input files, including the Molecular dynamics parameters, to run MD Simu
 
 "md.mdp"    - input parameter file to run the main MD trajectory
 
-
+<br>
 
 Parameters and coordinates for each system:
 
@@ -58,7 +58,7 @@ Parameters and coordinates for each system:
 
 "topol.top"          - topology file used in the simulation
 
-
+<br>
 
 For help and support please contact: qtmarque@ci.uc.pt
 

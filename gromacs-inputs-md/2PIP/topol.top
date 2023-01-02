@@ -1,0 +1,23 @@
+#include "oplsaa.ff/forcefield.itp"
+
+[ atomtypes ]
+#include "pip_atoms.itp"
+#include "tip4p2005_atoms.itp"
+
+
+#include "PIP.itp"
+#ifdef POSRES
+#include "posre_pip.itp"
+#endif
+
+#include "tip4p2005.itp"
+#include "oplsaa.ff/ions.itp"
+
+
+[ system ]
+CUR+PIP in water
+
+[ molecules ]
+; Compound        nmols
+PIP             2
+SOL             19000

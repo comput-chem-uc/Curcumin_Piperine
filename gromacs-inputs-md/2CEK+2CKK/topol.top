@@ -1,0 +1,32 @@
+#include "amber99sb.ff/forcefield.itp"
+
+
+[ atomtypes ]
+#include "cek_atoms.itp"
+#include "ckk_atoms.itp"
+#include "tip4p2005_atoms.itp"
+
+#include "CEK.itp"
+#ifdef POSRES
+#include "posre_cek.itp"
+#endif
+
+
+#include "CKK.itp"
+#ifdef POSRES
+#include "posre_ckk.itp"
+#endif
+
+
+#include "tip4p2005.itp"
+#include "amber99sb.ff/ions.itp"
+
+
+[ system ]
+CEK+CKK in water
+
+[ molecules ]
+; Compound        nmols
+CEK		2
+CKK             2
+SOL             38265

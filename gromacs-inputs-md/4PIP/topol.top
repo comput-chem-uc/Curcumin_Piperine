@@ -1,0 +1,24 @@
+#include "amber99sb.ff/forcefield.itp"
+
+
+[ atomtypes ]
+#include "pip_atoms.itp"
+#include "tip4p2005_atoms.itp"
+
+
+#include "PIP.itp"
+#ifdef POSRES
+#include "posre_pip.itp"
+#endif
+
+#include "tip4p2005.itp"
+#include "amber99sb.ff/ions.itp"
+
+
+[ system ]
+PIP in water
+
+[ molecules ]
+; Compound        nmols
+PIP             4
+SOL             38282

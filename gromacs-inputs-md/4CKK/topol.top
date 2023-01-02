@@ -1,0 +1,24 @@
+#include "amber99sb.ff/forcefield.itp"
+
+
+
+[ atomtypes ]
+#include "cur_atoms.itp"
+#include "tip4p2005_atoms.itp"
+
+#include "CUR.itp"
+#ifdef POSRES
+#include "posre_cur.itp"
+#endif
+
+#include "tip4p2005.itp"
+#include "amber99sb.ff/ions.itp"
+
+
+[ system ]
+CUR in water
+
+[ molecules ]
+; Compound        nmols
+CUR		4
+SOL             38267
